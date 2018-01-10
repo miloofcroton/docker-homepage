@@ -108,7 +108,7 @@
 
 6. Run Docker
 
-  *After this, you just need to visit localhost:8080 in your browser. Nginx would be listening on port 80 of the host machine.*
+  *After this, you just need to visit localhost:8084 in your browser.*
 
   ```bash
   docker-compose build

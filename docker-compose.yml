@@ -45,7 +45,7 @@ services:
     build: ./nginx/
     tty: false
     ports:
-      - "80:80"
+      - "8084:80"
     volumes:
       - staticvolume:/www/public
       - staticvolume:/usr/src/app

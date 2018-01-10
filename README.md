@@ -3,23 +3,28 @@
 (or don't) (I'll know if you don't though)
 
 
-### Features
+### Components
 
-- Dockerized MERN development setup
-- Makes use of docker-compose
-- Makes use of nginx as a server and reverse-proxy
-- Essential webpack starting point with stylus, babel, and hot reloading enabled along with react-hot-loader v4. Configured rapid-solid development and production builds.
-- No-nonsense architecture with documentation provided through README.
-- Yarn is used.
-- Project makes use of eslint-config-airbnb
+- Ubuntu running Ubuntu 17.10
+- docker, docker-compose
+- nginx as a server and reverse-proxy
+- webpack with
+  - stylus
+  - babel
+  - hot reloading enabled along with react-hot-loader v4
+  - configured rapid-solid development and production builds
+- yarn
+- node.js
+- express
+- react
+- JavaScript
+  - eslint-config-airbnb
+- HTML
+- CSS
+
+<!--- nvm, npm -->
 
 ### Getting Started
-
-#### Requirements
-
-* Computer running Ubuntu 17.10
-
-#### Process
 
 1. Set up repo. Before this script, create your repo on GitHub website.
 
@@ -32,8 +37,7 @@
   cd ..
   mv <name of this repo folder> <name of your repo folder>
   ```
-
-2. Install npm.
+<!--2. Install npm.
 
   *Note: This project is not expressly using npm, so this is extraneous info that I am saving because it is useful*
 
@@ -48,9 +52,9 @@
   sudo chown -R $USER:$(id -gn $USER) /home/commander/.config   #replace commander with your username
   nvm install node
   nvm use node
-  ```
+  ```-->
 
-3. Install Yarn
+2. Install Yarn
 
   *For more info: https://yarnpkg.com/lang/en/docs/install/*
 

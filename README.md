@@ -64,7 +64,7 @@
   sudo apt-get update && sudo apt-get install yarn
   ```
 
-4. Run Yarn
+3. Run Yarn
 
   *Note: There are certain packages that have project-level-utility (such as eslint), and so are installed into the web directory while frontend and backend code have their own dependencies. This makes for de-coupling while making use project-wide packages like those mandated by eslint-config-airbnb.*
 
@@ -83,7 +83,7 @@
   yarn install
   ```
 
-5. Install Docker
+4. Install Docker
 
   *Note: verify that the fingerprint is 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88*
 
@@ -110,7 +110,7 @@
   sudo chmod +x /usr/local/bin/docker-compose
   ```
 
-6. Run Docker
+5. Run Docker
 
   *After this, you just need to visit localhost:8084 in your browser.*
 

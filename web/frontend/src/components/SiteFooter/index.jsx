@@ -6,7 +6,7 @@ import styles from './style.styl';
 
 const SiteFooter = () => (
   <footer className={classNames(styles.siteFooter, 'content')}>
-    <span>Crafted with <FaHeart size={20} color="aliceblue" /> by Arjun</span>
+    <span>Crafted by Jack</span>
   </footer>
 );
 

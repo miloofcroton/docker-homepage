@@ -5,7 +5,7 @@ import styles from './style.styl';
 const SiteHeader = () => (
   <header className={classNames(styles.siteHeader, 'content')}>
     <h4>
-      M.A.T.R.I.X. Boilerplate - MERN Edition
+      Jack Toumey
     </h4>
   </header>
 );
